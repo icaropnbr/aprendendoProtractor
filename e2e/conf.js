@@ -5,7 +5,7 @@ var SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',  // endereço do servidor para testes
-  specs: ['./tests/specs/pesquisaGoogle.spec.js'],  // caminho do arquivo de teste
+  specs: ['./specs/pesquisarNoGoogle.spec.js'],  // caminho do arquivo de teste
 
   onPrepare: function() {
     jasmine.getEnv().addReporter(new SpecReporter({
